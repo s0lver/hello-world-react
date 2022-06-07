@@ -1,10 +1,4 @@
-// export default interface TodoItem {
-//     id?: number;
-//     text: string;
-//     date?: Date;
-// }
-
-export default class TodoItem {
+export default class TodoItemType {
     id?: number;
     text: string;
     date?: Date;

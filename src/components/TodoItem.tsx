@@ -1,7 +1,7 @@
 import React from 'react';
-import TodoItem from '../types/TodoItem';
+import TodoItemType from './TodoItem.types';
 
-const TodoItemComponent = (props: TodoItem) => {
+const TodoItem = (props: TodoItemType) => {
     return (
         <li>
             {props.text}
@@ -10,4 +10,4 @@ const TodoItemComponent = (props: TodoItem) => {
     );
 }
 
-export default TodoItemComponent;
+export default TodoItem;
